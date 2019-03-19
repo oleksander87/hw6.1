@@ -9,7 +9,7 @@ var classes = ["mouse","botton","scrol","sensor"];
 
 var style = document.head.appendChild(document.createElement('style'));
 
-style.textContent = `.mouse,.botton,.scrol,.sensor{
+style.textContent = `*{
     width: 300px;
     height: 300px;
   } 
